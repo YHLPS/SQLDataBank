@@ -1,0 +1,20 @@
+Dashboards: 
+Enables analysis, monitoring, measurement and comparison of data.
+
+Every dashboard will be created for a certain purpose.
+The data displayed and the graphs displayed will be chosen according to the purpose of the dashboard.
+The design and layout of the dashboard should also match the purpose of the dashboard.
+
+Main Dashboard- will contain links and summery to all the dashboards.
+
+Design Rules- As with any visualization, there are design rules that will help make the dashboard more understandable, and will convey the message better:
+- Text - size, color, bold
+- Color
+- Frame
+- Position & Hierarchy
+
+Interactivity - Customers can be allowed to perform actions that will affect the display of data on the dashboard:
+- ToolTip
+- Filter
+- Zoom 
+
