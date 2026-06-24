@@ -18,3 +18,54 @@ Interactivity - Customers can be allowed to perform actions that will affect the
 - Filter
 - Zoom 
 
+
+Data Visualization Principles: 
+- Audience: Matching the message and graph to the audience, How can the audience's attention be drawn?
+- Message: Easy to understand, Transfers the conclusions from the raw data. 
+Promotes processes and actions, Tells a story!
+- Data: Display only necessary information, Simplify less important information.
+Each part of the graph should have a connection to the information and message.
+No unnecessary drawings or texts.
+Ask yourself - why am I using this information? 
+For what purpose? 
+- Choosing the Right Graph: Consider the variables, Consider the need.
+Try different graphs and consult with colleagues.
+- Titles and Labels (Headline): The first thing the audience sees in the graph.
+Should be clear, simple and convey the purpose of the graph.
+Axes labels (including units of measure if required), Legend if necessary.
+A study examined and found that good headlines affect audience memory, and their understanding of the data.
+- Axis: For most charts, the numerical axis (usually the y axis) must start at zero.
+Our eyes are very sensitive to the area of bars, and we will draw inaccurate conclusions when the bars are truncated
+The axis should be continuous - no skipping values, Skipping values in the axis may cause a distortion of the trend.
+- Color: To emphasize the important details.
+To show the difference between variables.
+To represent quantities / volume.
+Use colors according to their meaning ( Dark vs Bright).
+The colors in the graph must match each other!
+
+Different colors should be used for different categories (male/female, types of fruit), 
+not different values in a range (age, temperature).
+In order to show colors of a numerical range use a sequential range and not a rainbow range
+When choosing colors, remember that some viewers have color-blindness
+
+Use the same colors, axes, and labels across multiple charts.
+In the same presentation, we will be consistent when using a color to represent a category.
+Do not use more than six (6) colors in a visualization
+
+
+Gestalt Principles - Principles that describe how humans group similar elements, recognize patterns and simplify complex images when we perceive objects:
+- Closure
+- Similarity
+- Proximity
+- Symmetry & Order
+- Common Fate
+- Continuation
+
+
+
+
+
+
+
+
+
