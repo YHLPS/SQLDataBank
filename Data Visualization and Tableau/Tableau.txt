@@ -8,5 +8,28 @@ We will want to check:
 - Data Prep: 
 Column Names, We may want to use basic row-level functions at this stage
 
+Workspace:
+multiple Worksheets, 
+Data Sources as a Worksheet, multiple Data Sources. 
+
+Types of Variables: 
+
+- Dimensions- Categorical Variable - 
+qualitative values in tableau (such as names, dates, or geographical data) are called Dimensions. 
+We will use dimensions to categorize, segment, and reveal the details in our data. Dimensions affect the level of detail in the view. 
+
+- Measures- Quantitative Variable - numeric, 
+quantitative values in tableau (values that you can measure) called Measures, 
+Measures can be aggregated (group by). 
+
+Dimensions and Measures can be Discrete or Continuous. 
+
+
+The Viz: 
+The basic structure of every viz is made of, 
+dimension and measure columns placed on the Rows and Columns shelves, 
+and on different properties in the Marks card.
+
+
 
 
