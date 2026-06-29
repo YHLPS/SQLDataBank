@@ -14,11 +14,11 @@ Data Sources as a Worksheet, multiple Data Sources.
 
 Types of Variables: 
 
-- Dimensions- Categorical Variable - 
+- Dimensions(the x-axis categories)- Categorical Variable - 
 qualitative values in tableau (such as names, dates, or geographical data) are called Dimensions. 
 We will use dimensions to categorize, segment, and reveal the details in our data. Dimensions affect the level of detail in the view. 
 
-- Measures- Quantitative Variable - numeric, 
+- Measures(the y-axis values)- Quantitative Variable - numeric, 
 quantitative values in tableau (values that you can measure) called Measures, 
 Measures can be aggregated (group by). 
 
@@ -30,6 +30,20 @@ The basic structure of every viz is made of,
 dimension and measure columns placed on the Rows and Columns shelves, 
 and on different properties in the Marks card.
 
+
+Creating Graphs: 
+present the amount of workers per manager, 
+how would we solve this in SQL?
+
+SELECT count(worker_id) as workers
+	,manager
+FROM hr
+GROUP BY manager
+
+Aggregations in Tableau: 
+First, we will add the manager(the x-axis categories) to our worksheet – this is our group by. 
+Next we will add our workers(the y-axis values), and use the count function – this is the calculation
+We have our graph!
 
 
 
