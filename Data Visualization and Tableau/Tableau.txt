@@ -1,0 +1,12 @@
+Data Sources: 
+Connecting to Data Sources:
+Microsoft Excel, JSON, SQL Server, ect...
+
+Before we start to build graphs we will want to make sure that our data is ready for use, 
+We will want to check:
+- Data Types. 
+- Data Prep: 
+Column Names, We may want to use basic row-level functions at this stage
+
+
+
