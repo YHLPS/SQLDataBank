@@ -45,5 +45,27 @@ First, we will add the manager(the x-axis categories) to our worksheet – this 
 Next we will add our workers(the y-axis values), and use the count function – this is the calculation
 We have our graph!
 
+Marks: 
+We can use the Marks to add context and detail to our graphs.
+Color, Size, Label, Detail, Tooltip, Additional Marks such as Shape mark, a Text mark (instead of label), a Path mark, or an Angle mark.
+
+
+Filters: 
+Types of Filters: 
+categorical data (dimensions), 
+quantitative data (measures), 
+or date fields.
+
+Sort: 
+Types of Sorting: 
+Sort by size of values (y-axis)
+Manual Sort
+Sort by field (x-axis)
+Sort by the values of another column
+
+Formatting: 
+You can change the formatting for almost everything you see on a worksheet, 
+including fonts, shading, alignment, borders, and graph lines. 
+
 
 
