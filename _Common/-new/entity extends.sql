@@ -26,3 +26,31 @@ INSERT INTO person_names (person_id, name_text, is_primary) VALUES
 (1, 'אברהם', TRUE),   -- שם ראשי
 (1, 'אבי', FALSE),     -- כינוי
 (1, 'אברמל''ה', FALSE); -- שם נרדף נוסף
+
+-- 5. כדי לקבל את האדם יחד עם כל השמות שלו
+SELECT p.id, n.name_text, n.is_primary
+FROM persons p
+JOIN person_names n ON p.id = n.person_id
+WHERE p.id = 1;
+
+
+-- 6. קוד ה-SQL לחיפוש חכם
+DECLARE @search_name varchar(100) = '%אבי%'
+	
+-- שאילתה לחיפוש חכם לפי שם או כינוי
+SELECT 
+    p.id AS person_id,
+    main_name.name_text AS official_name
+FROM persons p
+-- 6.1. חיבור ראשון: מביא רק את השם הראשי לצורך תצוגה
+JOIN person_names main_name 
+    ON p.id = main_name.person_id AND main_name.is_primary = TRUE
+-- 6.2. חיבור שני: בודק את כל השמות (כולל כינויים) לצורך סינון החיפוש
+JOIN person_names search_name 
+    ON p.id = search_name.person_id
+-- 6.3. שלב הסינון: כאן אנחנו מגדירים מה אנחנו מחפשים
+--WHERE search_name.name_text LIKE '%אבי%';
+WHERE search_name.name_text LIKE @search_name;
+
+
+
