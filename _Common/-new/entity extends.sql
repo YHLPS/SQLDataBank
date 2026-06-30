@@ -1,3 +1,6 @@
+-- LIKE '%אבי%';
+-- Wildcard
+
 -- 1. יצירת טבלת האנשים הראשית
 CREATE TABLE persons (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -40,7 +43,8 @@ DECLARE @search_name varchar(100) = '%אבי%'
 -- שאילתה לחיפוש חכם לפי שם או כינוי
 SELECT 
     p.id AS person_id,
-    main_name.name_text AS official_name
+    main_name.name_text AS official_name, 
+	search_name.name_text AS resemble_name
 FROM persons p
 -- 6.1. חיבור ראשון: מביא רק את השם הראשי לצורך תצוגה
 JOIN person_names main_name 
