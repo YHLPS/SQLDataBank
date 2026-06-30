@@ -20,7 +20,14 @@ SELECT * from enum_categories
 CREATE TABLE enum_category_status (
 	category_id INT,
 	status_id INT,
-	status_name VARCHAR (255) NOT NULL
+	
+	-- display name: 'Active', 'Pending Approval', 'Deleted'. can be removed with localization env.
+	status_name VARCHAR (255) NOT NULL,
+	
+	-- code name - דוגמה לערכים: 'ACTIVE', 'PENDING_APPROVAL', 'DELETED'
+	-- `PENDING_APPROVAL_DELETED_PENDING_APPROVAL_DELETED`.length = 49
+	-- `PENDING_APPROVAL_DELETED_PENDING_APPROVAL_DELETED_PENDING_APPROVAL_DELETED`.length = 74
+	status_key VARCHAR(50) NOT NULL, 
 
 	PRIMARY KEY (category_id, status_id),
 	FOREIGN KEY (category_id) 
